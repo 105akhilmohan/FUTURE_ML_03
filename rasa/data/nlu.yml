@@ -1,0 +1,55 @@
+version: "3.1"
+nlu:
+- intent: greet
+  examples: |
+    - hello
+    - hi
+    - hey
+    - good morning
+    - good evening
+
+- intent: goodbye
+  examples: |
+    - bye
+    - goodbye
+    - see you later
+    - catch you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - yeah
+    - sure
+    - of course
+    - absolutely
+
+- intent: deny
+  examples: |
+    - no
+    - nope
+    - not really
+    - I don’t think so
+
+- intent: ask_order_status
+  examples: |
+    - where is my order
+    - track my order
+    - order status
+    - check my delivery
+    - when will my package arrive
+
+- intent: ask_billing
+  examples: |
+    - I have a billing issue
+    - I need a refund
+    - my payment failed
+    - I didn’t get my invoice
+    - why was I charged twice
+
+- intent: ask_password_reset
+  examples: |
+    - I forgot my password
+    - reset my password
+    - I can’t log in
+    - help me recover my account
+    - password recovery
